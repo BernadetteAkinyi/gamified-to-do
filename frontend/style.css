@@ -1,8 +1,11 @@
 * {
     font-family:"Irish Grover", sans-serif;
-    background-color:#FF69B4;
     margin:0;
 
+}
+
+body {
+    background-color:#FF69B4;
 }
 
 .top {
@@ -21,3 +24,59 @@ header h2 {
     align-items:center;
 }
 
+ul {
+    list-style-type:none;
+}
+
+
+.chkbox {
+    accent-color:#00B612;
+    width:20px;
+    height:20px;
+    
+}
+
+.levels {
+    display: flex;
+    justify-content:right;
+    padding-right:50px;
+    
+}
+
+.level-no {
+    padding:10px;
+
+    background-color:#d92c74;
+    border-radius:30px;
+}
+
+.level-no h2 {
+    color:#00B612;
+
+}
+
+.level-no p {
+    color:#800080
+
+}
+
+.games img {
+    width:100px;
+}
+
+.btn {
+    background-color:#800080;
+    border-radius:14px;
+    padding:8px 50px;
+    border:5px solid black;
+    cursor:pointer;
+}
+
+.btn:hover {
+    background-color:#d92c74;
+    transition: ease all 3s;
+}
+
+.input-box {
+    padding:12px;
+}

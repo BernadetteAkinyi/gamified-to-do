@@ -3,46 +3,52 @@
 <html>
   <head>
     <title>Dashboard</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-        <div class="top">
+      <div class="top">
         <img src="../assets/boxer lottie.svg" alt="Animated boxer character." />
-      <h2>Ready for today's pump ?</h2>
-        </div>
-     
+        <h2>Ready for today's pump ?</h2>
+      </div>
     </header>
     <main>
+        <form action="/add" method="post">
+            <label for="task">Task:</label>
+            <input type="text" class="input-box" placeholder="What are we conquring today?">
+        </form>
       <aside>
-        <nav>
+        <nav class="sidebar">
           <h3>TODAY</h3>
           <ul>
             <li>
-              <input type="checkbox" />
+              <input type="checkbox" class="chkbox" />
               <span>Morning Yoga</span>
               <span>50xp</span>
             </li>
             <li>
-              <input type="checkbox" />
+              <input type="checkbox" class="chkbox" />
               <span>Dance Class</span>
               <span>10xp</span>
             </li>
             <li>
-              <input type="checkbox" />
+              <input type="checkbox" class="chkbox" />
               <span>Kiss Rouwel</span>
               <span>1000xp</span>
             </li>
             <li>
-              <input type="checkbox" />
+              <input type="checkbox" class="chkbox" />
               <span>Create API for IRIS</span>
               <span>10xp</span>
             </li>
             <li>
-              <input type="checkbox" />
+              <input type="checkbox" class="chkbox" />
               <span>CRY</span>
               <span>100xp</span>
             </li>
@@ -64,7 +70,9 @@
         alt="Animated charcter throwing a ball"
       />
       <h2>RESET TIME</h2>
-      <div class="game">PLAY NOW</div>
+      <div class="game">
+        <button class="btn">PLAY NOW</button>
+      </div>
     </section>
   </body>
 </html>

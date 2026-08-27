@@ -1,0 +1,23 @@
+* {
+    font-family:"Irish Grover", sans-serif;
+    background-color:#FF69B4;
+    margin:0;
+
+}
+
+.top {
+    display: flex;
+    background-color: #F8C8DC;
+   
+}
+ header img {
+    background-color: #F8C8DC;
+    width: 100px;
+}
+
+header h2 {
+    background-color: #F8C8DC;
+    display:flex;
+    align-items:center;
+}
+

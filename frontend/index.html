@@ -1,0 +1,82 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top">
+        <img src="../assets/boxer lottie.svg" alt="Animated boxer character." />
+        <h2>Ready for today's pump ?</h2>
+      </div>
+    </header>
+    <main>
+      <form action="/tasks" method="post">
+        <label for="task" name="task">Task:</label>
+        <input
+          type="text"
+          class="input-box"
+          placeholder="What are we conquring today?"
+        />
+      </form>
+      <aside>
+        <nav class="sidebar">
+          <h3>TODAY</h3>
+          <ul>
+            <li>
+              <input type="checkbox" class="chkbox" />
+              <span>Morning Yoga</span>
+              <span>50xp</span>
+            </li>
+            <li>
+              <input type="checkbox" class="chkbox" />
+              <span>Dance Class</span>
+              <span>10xp</span>
+            </li>
+            <li>
+              <input type="checkbox" class="chkbox" />
+              <span>Kiss Rouwel</span>
+              <span>1000xp</span>
+            </li>
+            <li>
+              <input type="checkbox" class="chkbox" />
+              <span>Create API for IRIS</span>
+              <span>10xp</span>
+            </li>
+            <li>
+              <input type="checkbox" class="chkbox" />
+              <span>CRY</span>
+              <span>100xp</span>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+      <section class="levels">
+        <div class="level-no">
+          <h2>Level 7</h2>
+          <p>1230 XP</p>
+        </div>
+      </section>
+    </main>
+
+    <section class="games">
+      <img
+        src="../assets/Happy Character Throwing Ball.svg"
+        alt="Animated charcter throwing a ball"
+      />
+      <h2>RESET TIME</h2>
+      <div class="game">
+        <button class="btn">PLAY NOW</button>
+      </div>
+    </section>
+  </body>
+</html>
